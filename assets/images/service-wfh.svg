@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="120" height="120" role="img" aria-label="Work from home icon">
+  <defs>
+    <linearGradient id="wfhGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0b6cf5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0949c4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="30" fill="#f0f7ff"/>
+  
+  <!-- House -->
+  <polygon points="100,40 60,90 70,90 70,150 130,150 130,90 140,90" fill="none" stroke="url(#wfhGrad)" stroke-width="6" stroke-linejoin="round"/>
+  
+  <!-- Door -->
+  <rect x="90" y="110" width="20" height="40" rx="2" fill="none" stroke="url(#wfhGrad)" stroke-width="3"/>
+  <circle cx="108" cy="130" r="2" fill="url(#wfhGrad)"/>
+  
+  <!-- Window -->
+  <rect x="75" y="100" width="15" height="15" rx="1" fill="url(#wfhGrad)" opacity="0.7"/>
+  
+  <!-- WiFi signal -->
+  <path d="M 130 55 Q 140 65 145 75" fill="none" stroke="url(#wfhGrad)" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 130 60 Q 145 75 155 85" fill="none" stroke="url(#wfhGrad)" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+</svg>

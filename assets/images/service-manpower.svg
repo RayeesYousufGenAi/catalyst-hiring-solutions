@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="120" height="120" role="img" aria-label="Manpower consultancy icon">
+  <defs>
+    <linearGradient id="mpGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0b6cf5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0949c4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="30" fill="#f0f7ff"/>
+  
+  <!-- People -->
+  <circle cx="70" cy="60" r="18" fill="url(#mpGrad)"/>
+  <path d="M 52 95 Q 52 105 62 105 L 78 105 Q 88 105 88 95 L 85 80 Q 70 80 55 80 Z" fill="url(#mpGrad)"/>
+  
+  <circle cx="130" cy="70" r="18" fill="url(#mpGrad)"/>
+  <path d="M 112 105 Q 112 115 122 115 L 138 115 Q 148 115 148 105 L 145 90 Q 130 90 115 90 Z" fill="url(#mpGrad)"/>
+  
+  <!-- Connection line -->
+  <line x1="70" y1="80" x2="130" y2="88" stroke="url(#mpGrad)" stroke-width="4" opacity="0.5"/>
+  
+  <!-- Building -->
+  <rect x="60" y="140" width="80" height="50" rx="4" fill="url(#mpGrad)" opacity="0.8"/>
+  <rect x="75" y="150" width="12" height="15" fill="#f0f7ff"/>
+  <rect x="95" y="150" width="12" height="15" fill="#f0f7ff"/>
+  <rect x="115" y="150" width="12" height="15" fill="#f0f7ff"/>
+</svg>

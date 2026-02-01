@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="500" height="300" role="img" aria-label="Growth and statistics chart">
+  <defs>
+    <linearGradient id="chartGrad1" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#0b6cf5;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#0b6cf5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="chartGrad2" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#0949c4;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#0949c4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background grid -->
+  <line x1="40" y1="240" x2="480" y2="240" stroke="#e6eefc" stroke-width="2"/>
+  <line x1="40" y1="40" x2="40" y2="240" stroke="#e6eefc" stroke-width="2"/>
+  
+  <!-- Bar 1 -->
+  <rect x="80" y="180" width="60" height="60" fill="url(#chartGrad1)" rx="4"/>
+  <text x="110" y="260" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0b1724" text-anchor="middle">2020</text>
+  
+  <!-- Bar 2 -->
+  <rect x="170" y="140" width="60" height="100" fill="url(#chartGrad1)" rx="4"/>
+  <text x="200" y="260" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0b1724" text-anchor="middle">2022</text>
+  
+  <!-- Bar 3 -->
+  <rect x="260" y="100" width="60" height="140" fill="url(#chartGrad2)" rx="4"/>
+  <text x="290" y="260" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0b1724" text-anchor="middle">2024</text>
+  
+  <!-- Bar 4 -->
+  <rect x="350" y="60" width="60" height="180" fill="url(#chartGrad2)" rx="4"/>
+  <text x="380" y="260" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0b1724" text-anchor="middle">2025</text>
+  
+  <!-- Trend line -->
+  <polyline points="110,180 200,140 290,100 380,60" fill="none" stroke="#0b6cf5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Trend dots -->
+  <circle cx="110" cy="180" r="5" fill="#0b6cf5"/>
+  <circle cx="200" cy="140" r="5" fill="#0b6cf5"/>
+  <circle cx="290" cy="100" r="5" fill="#0b6cf5"/>
+  <circle cx="380" cy="60" r="5" fill="#0b6cf5"/>
+  
+  <!-- Label -->
+  <text x="250" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0b1724" text-anchor="middle">Placements Growth</text>
+</svg>

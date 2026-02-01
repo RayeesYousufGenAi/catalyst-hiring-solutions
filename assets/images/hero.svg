@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="Recruitment team illustration">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f7ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f2ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#heroGrad)"/>
+  
+  <!-- People silhouettes -->
+  <circle cx="150" cy="200" r="28" fill="#0b6cf5" opacity="0.8"/>
+  <path d="M 130 240 Q 130 250 140 250 L 160 250 Q 170 250 170 240 L 165 235 Q 150 235 135 235 Z" fill="#0b6cf5" opacity="0.8"/>
+  
+  <circle cx="350" cy="170" r="35" fill="#0b6cf5"/>
+  <path d="M 320 230 Q 320 245 335 245 L 365 245 Q 380 245 380 230 L 375 220 Q 350 220 325 220 Z" fill="#0b6cf5"/>
+  
+  <circle cx="600" cy="200" r="28" fill="#0b6cf5" opacity="0.8"/>
+  <path d="M 580 240 Q 580 250 590 250 L 610 250 Q 620 250 620 240 L 615 235 Q 600 235 585 235 Z" fill="#0b6cf5" opacity="0.8"/>
+  
+  <!-- Connection lines -->
+  <line x1="180" y1="220" x2="315" y2="210" stroke="#0b6cf5" stroke-width="3" opacity="0.3"/>
+  <line x1="385" y1="215" x2="570" y2="230" stroke="#0b6cf5" stroke-width="3" opacity="0.3"/>
+  
+  <!-- Floating dots -->
+  <circle cx="100" cy="100" r="8" fill="#0b6cf5" opacity="0.5"/>
+  <circle cx="700" cy="120" r="6" fill="#0b6cf5" opacity="0.4"/>
+  <circle cx="450" cy="380" r="7" fill="#0b6cf5" opacity="0.45"/>
+  
+  <!-- Text banner -->
+  <rect x="50" y="320" width="700" height="100" rx="12" fill="#fff" opacity="0.95" stroke="#e6eefc" stroke-width="2"/>
+  <text x="400" y="360" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0b1724" text-anchor="middle">Connect Top Talent with Opportunity</text>
+  <text x="400" y="395" font-family="Arial, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle">Recruitment excellence across India</text>
+</svg>

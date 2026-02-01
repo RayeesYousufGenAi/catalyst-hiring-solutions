@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 250" width="700" height="250" role="img" aria-label="Recruitment process workflow">
+  <defs>
+    <linearGradient id="flowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0b6cf5;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0b6cf5;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#0949c4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Step 1: Job Posted -->
+  <circle cx="80" cy="120" r="40" fill="url(#flowGrad)"/>
+  <text x="80" y="130" font-family="Arial, sans-serif" font-size="28" fill="#fff" text-anchor="middle">📋</text>
+  <text x="80" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0b1724" text-anchor="middle">Job Posted</text>
+  
+  <!-- Arrow 1 -->
+  <line x1="120" y1="120" x2="180" y2="120" stroke="#0b6cf5" stroke-width="3"/>
+  <polygon points="185,120 175,115 175,125" fill="#0b6cf5"/>
+  
+  <!-- Step 2: Screening -->
+  <circle cx="240" cy="120" r="40" fill="url(#flowGrad)"/>
+  <text x="240" y="130" font-family="Arial, sans-serif" font-size="28" fill="#fff" text-anchor="middle">🔍</text>
+  <text x="240" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0b1724" text-anchor="middle">Screening</text>
+  
+  <!-- Arrow 2 -->
+  <line x1="280" y1="120" x2="340" y2="120" stroke="#0b6cf5" stroke-width="3"/>
+  <polygon points="345,120 335,115 335,125" fill="#0b6cf5"/>
+  
+  <!-- Step 3: Interview -->
+  <circle cx="400" cy="120" r="40" fill="url(#flowGrad)"/>
+  <text x="400" y="130" font-family="Arial, sans-serif" font-size="28" fill="#fff" text-anchor="middle">💬</text>
+  <text x="400" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0b1724" text-anchor="middle">Interview</text>
+  
+  <!-- Arrow 3 -->
+  <line x1="440" y1="120" x2="500" y2="120" stroke="#0b6cf5" stroke-width="3"/>
+  <polygon points="505,120 495,115 495,125" fill="#0b6cf5"/>
+  
+  <!-- Step 4: Placement -->
+  <circle cx="560" cy="120" r="40" fill="url(#flowGrad)"/>
+  <text x="560" y="130" font-family="Arial, sans-serif" font-size="28" fill="#fff" text-anchor="middle">✓</text>
+  <text x="560" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0b1724" text-anchor="middle">Placement</text>
+  
+  <!-- Arrow 4 -->
+  <line x1="600" y1="120" x2="660" y2="120" stroke="#0b6cf5" stroke-width="3"/>
+  <polygon points="665,120 655,115 655,125" fill="#0b6cf5"/>
+  
+  <!-- Step 5: Support -->
+  <circle cx="680" cy="120" r="30" fill="url(#flowGrad)"/>
+  <text x="680" y="128" font-family="Arial, sans-serif" font-size="24" fill="#fff" text-anchor="middle">🤝</text>
+  
+  <!-- Timeline footer -->
+  <text x="350" y="230" font-family="Arial, sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">Average 7-14 days from posting to placement</text>
+</svg>

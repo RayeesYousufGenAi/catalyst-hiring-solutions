@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" width="700" height="300" role="img" aria-label="Industries served by Catalyst">
+  <defs>
+    <linearGradient id="ind1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0b6cf5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0949c4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="ind2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0b6cf5;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#0949c4;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- BPO Icon -->
+  <circle cx="100" cy="80" r="40" fill="url(#ind1)"/>
+  <text x="100" y="90" font-family="Arial, sans-serif" font-size="32" fill="#fff" text-anchor="middle">☎️</text>
+  <text x="100" y="180" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0b1724" text-anchor="middle">BPO & Contact</text>
+  <text x="100" y="195" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0b1724" text-anchor="middle">Centers</text>
+  
+  <!-- IT Industry -->
+  <circle cx="280" cy="80" r="40" fill="url(#ind2)"/>
+  <text x="280" y="90" font-family="Arial, sans-serif" font-size="32" fill="#fff" text-anchor="middle">💻</text>
+  <text x="280" y="180" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0b1724" text-anchor="middle">Information</text>
+  <text x="280" y="195" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0b1724" text-anchor="middle">Technology</text>
+  
+  <!-- Finance -->
+  <circle cx="460" cy="80" r="40" fill="url(#ind1)"/>
+  <text x="460" y="90" font-family="Arial, sans-serif" font-size="32" fill="#fff" text-anchor="middle">💰</text>
+  <text x="460" y="180" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0b1724" text-anchor="middle">Finance &</text>
+  <text x="460" y="195" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0b1724" text-anchor="middle">Accounting</text>
+  
+  <!-- Healthcare -->
+  <circle cx="640" cy="80" r="40" fill="url(#ind2)"/>
+  <text x="640" y="90" font-family="Arial, sans-serif" font-size="32" fill="#fff" text-anchor="middle">⚕️</text>
+  <text x="640" y="180" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0b1724" text-anchor="middle">Healthcare</text>
+  <text x="640" y="195" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0b1724" text-anchor="middle">Services</text>
+  
+  <!-- Row 2 -->
+  <!-- Retail & E-commerce -->
+  <circle cx="190" cy="250" r="40" fill="url(#ind2)"/>
+  <text x="190" y="260" font-family="Arial, sans-serif" font-size="32" fill="#fff" text-anchor="middle">🛍️</text>
+  
+  <!-- Real Estate -->
+  <circle cx="370" cy="250" r="40" fill="url(#ind1)"/>
+  <text x="370" y="260" font-family="Arial, sans-serif" font-size="32" fill="#fff" text-anchor="middle">🏢</text>
+  
+  <!-- Manufacturing -->
+  <circle cx="550" cy="250" r="40" fill="url(#ind2)"/>
+  <text x="550" y="260" font-family="Arial, sans-serif" font-size="32" fill="#fff" text-anchor="middle">🏭</text>
+  
+  <!-- Labels for row 2 -->
+  <text x="190" y="310" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0b1724" text-anchor="middle">Retail & E-com</text>
+  <text x="370" y="310" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0b1724" text-anchor="middle">Real Estate</text>
+  <text x="550" y="310" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0b1724" text-anchor="middle">Manufacturing</text>
+</svg>
