@@ -40,8 +40,8 @@ export default function HeroDashboard() {
   return (
     <div className="relative w-full aspect-[4/5] sm:aspect-[5/6] lg:aspect-square max-h-[560px]">
       {/* Ambient glow behind visual */}
-      <div className="absolute inset-8 rounded-full bg-sky-400/20 blur-3xl" />
-      <div className="absolute inset-16 rounded-full bg-teal-400/15 blur-2xl animate-pulse-soft" />
+      <div className="absolute inset-8 rounded-full bg-sky-400/20 blur-2xl pointer-events-none" style={{ transform: 'translate3d(0,0,0)' }} />
+      <div className="absolute inset-16 rounded-full bg-teal-400/15 blur-xl pointer-events-none" style={{ transform: 'translate3d(0,0,0)' }} />
 
       {/* India network SVG */}
       <svg
