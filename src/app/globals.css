@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Live-site soft mesh base — not pure white */
+    --background: #f4f8fc;
+    --foreground: #0b1b32;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    overflow-x: hidden;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #eef4fa;
+}
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
+
+/* Matches catalysthiringsolutions.in mesh: sky blue + mint, never flat white */
+.bg-hero-light {
+  background:
+    radial-gradient(ellipse 70% 55% at 88% 8%, rgba(56, 189, 248, 0.28), transparent 55%),
+    radial-gradient(ellipse 65% 50% at 8% 92%, rgba(45, 212, 191, 0.22), transparent 55%),
+    radial-gradient(ellipse 55% 45% at 50% 45%, rgba(147, 197, 253, 0.14), transparent 60%),
+    radial-gradient(ellipse 40% 35% at 70% 70%, rgba(165, 243, 252, 0.18), transparent 50%),
+    linear-gradient(165deg, #eef6ff 0%, #f4f9fc 35%, #f0faf7 70%, #eef8fb 100%);
+}
+
+.text-gradient-brand {
+  background: linear-gradient(90deg, #2e99d4 0%, #13a295 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.btn-primary-gradient {
+  background: linear-gradient(90deg, #1d4ed8 0%, #3b82f6 100%);
+  color: #fff;
+  box-shadow: 0 8px 24px -6px rgba(37, 99, 235, 0.45);
+}
+
+.btn-primary-gradient:hover {
+  background: linear-gradient(90deg, #1e40af 0%, #2563eb 100%);
+}
+
+.aurora-blob {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(72px);
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+
+.network-line {
+  stroke-dasharray: 6 8;
+  animation: dashMove 14s linear infinite;
+}
+
+@keyframes dashMove {
+  to {
+    stroke-dashoffset: -200;
+  }
+}
