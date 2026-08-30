@@ -44,8 +44,8 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? 'bg-white/90 dark:bg-slate-900/90 backdrop-blur-xl border-b border-slate-200 dark:border-slate-800 shadow-sm py-3'
-          : 'bg-transparent py-5'
+          ? 'bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl border-b border-slate-200/80 dark:border-slate-800 shadow-sm py-3'
+          : 'bg-white/70 dark:bg-slate-900/90 backdrop-blur-md border-b border-slate-200/40 dark:border-slate-800 py-4'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -53,34 +53,34 @@ export default function Navbar() {
           
           {/* Brand Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-gold-500 to-gold-600 flex items-center justify-center shadow-sm">
+            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-gold-500 to-gold-600 flex items-center justify-center shadow-sm shrink-0">
               <Briefcase className="w-4 h-4 text-white" />
             </div>
             <div>
               <div className="flex items-center gap-1.5">
-                <span className="font-display text-xl tracking-tight text-navy-950 dark:text-white transition-colors">
+                <span className="font-display text-xl tracking-tight text-slate-900 dark:text-white font-extrabold transition-colors">
                   Catalyst
                 </span>
                 <span className="w-1.5 h-1.5 rounded-full bg-corp-500 animate-pulse"></span>
               </div>
-              <span className="text-[9px] uppercase tracking-[0.18em] text-navy-400 font-semibold block -mt-0.5">
+              <span className="text-[9px] uppercase tracking-[0.18em] text-slate-500 dark:text-slate-400 font-semibold block -mt-0.5">
                 Hiring Solutions
               </span>
             </div>
           </Link>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden lg:flex items-center gap-0.5">
+          <nav className="hidden lg:flex items-center gap-1">
             {navLinks.map((link) => {
               const isActive = pathname === link.href;
               return (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors duration-200 ${
+                  className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all duration-200 ${
                     isActive
-                      ? 'text-corp-600 bg-corp-50'
-                      : 'text-navy-600 dark:text-slate-200 hover:text-navy-950 hover:bg-navy-50'
+                      ? 'text-corp-600 bg-corp-50 dark:text-gold-400 dark:bg-slate-800 border border-corp-100 dark:border-slate-700 shadow-xs'
+                      : 'text-slate-700 dark:text-slate-100 hover:text-corp-600 dark:hover:text-gold-400 hover:bg-slate-100/80 dark:hover:bg-slate-800/80'
                   }`}
                 >
                   {link.name}
@@ -91,25 +91,25 @@ export default function Navbar() {
 
           {/* Right CTAs */}
           <div className="hidden lg:flex items-center gap-3">
-            {/* Optional Dark Mode Toggle */}
+            {/* Dark Mode Toggle */}
             <button
               onClick={toggleDarkMode}
-              className="p-2 rounded-xl text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
-              title="Toggle Optional Dark Mode"
+              className="p-2 rounded-xl text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+              title="Toggle Dark Mode"
             >
               {darkMode ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4" />}
             </button>
 
             <Link
               href="/hire"
-              className="btn-primary-gradient px-5 py-2 rounded-full text-xs font-semibold flex items-center gap-1.5"
+              className="btn-primary-gradient px-5 py-2 rounded-full text-xs font-bold flex items-center gap-1.5 shadow-sm"
             >
               <span>Get Started</span>
             </Link>
             
             <Link
               href="/admin"
-              className="p-2 rounded-xl text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors text-xs flex items-center gap-1"
+              className="p-2 rounded-xl text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors text-xs flex items-center gap-1"
               title="Recruiter Login"
             >
               <UserCheck className="w-4 h-4" />
@@ -129,7 +129,7 @@ export default function Navbar() {
 
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-white/98 dark:bg-slate-900/98 backdrop-blur-2xl border-b border-slate-200 dark:border-slate-800 px-4 pt-3 pb-6 animate-in slide-in-from-top duration-300">
+        <div className="lg:hidden bg-white/98 dark:bg-slate-900/98 backdrop-blur-2xl border-b border-slate-200 dark:border-slate-800 px-4 pt-3 pb-6 animate-in slide-in-from-top duration-300 shadow-xl">
           <div className="flex flex-col gap-2">
             {navLinks.map((link) => {
               const isActive = pathname === link.href;
@@ -138,41 +138,33 @@ export default function Navbar() {
                   key={link.href}
                   href={link.href}
                   onClick={() => setMobileMenuOpen(false)}
-                  className={`px-4 py-2.5 rounded-xl text-xs font-bold flex items-center justify-between ${
+                  className={`flex items-center justify-between px-4 py-3 rounded-xl text-xs font-bold transition-all ${
                     isActive
-                      ? 'bg-corp-50 text-corp-600 border border-corp-200'
-                      : 'text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800'
+                      ? 'bg-corp-50 text-corp-600 dark:bg-slate-800 dark:text-gold-400'
+                      : 'text-slate-700 dark:text-slate-100 hover:bg-slate-50 dark:hover:bg-slate-800'
                   }`}
                 >
                   <span>{link.name}</span>
-                  <ChevronRight className="w-4 h-4 opacity-50" />
+                  <ChevronRight className="w-4 h-4 text-slate-400" />
                 </Link>
               );
             })}
-            <div className="pt-3 border-t border-slate-200 dark:border-slate-800 flex flex-col gap-2 mt-2">
-              <Link
-                href="/hire"
-                onClick={() => setMobileMenuOpen(false)}
-                className="w-full py-3 rounded-full text-xs font-bold text-center text-white btn-primary-gradient"
+            <div className="pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between gap-3">
+              <button
+                onClick={toggleDarkMode}
+                className="p-2.5 rounded-xl border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-200 flex items-center gap-2 text-xs font-semibold"
               >
-                Request Talent (Employers)
+                {darkMode ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4" />}
+                <span>{darkMode ? 'Light Theme' : 'Dark Theme'}</span>
+              </button>
+              <Link
+                href="/admin"
+                onClick={() => setMobileMenuOpen(false)}
+                className="px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-xs font-semibold flex items-center gap-1.5"
+              >
+                <UserCheck className="w-4 h-4" />
+                <span>Admin</span>
               </Link>
-              <div className="flex items-center justify-between pt-2">
-                <button
-                  onClick={toggleDarkMode}
-                  className="text-xs font-bold text-slate-600 dark:text-slate-300 flex items-center gap-2"
-                >
-                  {darkMode ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4" />}
-                  <span>Toggle Dark Mode</span>
-                </button>
-                <Link
-                  href="/admin"
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="text-xs text-slate-500 underline"
-                >
-                  Recruiter Admin
-                </Link>
-              </div>
             </div>
           </div>
         </div>

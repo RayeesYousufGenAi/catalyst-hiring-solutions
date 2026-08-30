@@ -74,7 +74,7 @@ export default function AdminPage() {
         setAuthError('');
         loadAdminData();
       } else {
-        setAuthError('Invalid admin password. Default local password is "admin123"');
+        setAuthError('Invalid admin security password. Please try again.');
       }
     } catch (err) {
       setAuthError('Login failed.');
@@ -118,7 +118,7 @@ export default function AdminPage() {
           </div>
 
           {authError && (
-            <div className="p-3 rounded-xl bg-red-50 border border-red-200 text-red-700 text-xs text-center">
+            <div className="p-3 rounded-xl bg-red-50 border border-red-200 text-red-700 text-xs text-center font-medium">
               {authError}
             </div>
           )}
@@ -129,10 +129,10 @@ export default function AdminPage() {
               <input
                 type="password"
                 required
-                placeholder="Enter admin password (default: admin123)"
+                placeholder="Enter admin security password"
                 value={passwordInput}
                 onChange={(e) => setPasswordInput(e.target.value)}
-                className="w-full px-3.5 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-xs focus:outline-none focus:border-corp-600"
+                className="w-full px-3.5 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-xs focus:outline-none focus:border-corp-600 transition-all"
               />
             </div>
             <button
