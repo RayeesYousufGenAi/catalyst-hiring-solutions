@@ -37,7 +37,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-corp-600 shrink-0" />
-                <a href="mailto:hr@catalysthiring.com" className="hover:text-corp-600 transition-colors">hr@catalysthiring.com</a>
+                <a href="mailto:hr@catalysthiringsolutions.in" className="hover:text-corp-600 transition-colors">hr@catalysthiringsolutions.in</a>
               </div>
             </div>
           </div>

@@ -322,12 +322,12 @@ export default function HomePage() {
                 </div>
                 <div className="pt-6 flex items-center justify-between">
                   <span className="text-xs text-navy-400">{job.jobType} · {job.experienceLevel}</span>
-                  <button
-                    onClick={() => handleApplyClick(job)}
-                    className="text-sm font-semibold text-corp-600 hover:text-corp-700 flex items-center gap-1"
+                  <Link
+                    href={`/careers/${job.slug}`}
+                    className="text-sm font-bold text-corp-600 hover:text-corp-700 flex items-center gap-1"
                   >
-                    Apply <ArrowRight className="w-3.5 h-3.5" />
-                  </button>
+                    View & Apply <ArrowRight className="w-3.5 h-3.5" />
+                  </Link>
                 </div>
               </div>
             ))}

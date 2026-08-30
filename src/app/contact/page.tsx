@@ -8,7 +8,7 @@ import ContactForm from '@/components/ContactForm';
 export const metadata: Metadata = {
   title: 'Contact Us | Catalyst Hiring Solutions Dewas & India',
   description:
-    'Get in touch with Catalyst Hiring Solutions headquarters in Dewas, Madhya Pradesh. Phone: +91-9797713791. Email: hr@catalysthiring.com. Fast recruiter assistance.',
+    'Get in touch with Catalyst Hiring Solutions headquarters in Dewas, Madhya Pradesh. Phone: +91-9797713791. Email: hr@catalysthiringsolutions.in. Fast recruiter assistance.',
   keywords: [
     'Contact Catalyst Hiring Solutions',
     'Recruitment Agency Contact Dewas',
@@ -122,8 +122,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-bold text-slate-900">Email Address</h3>
-                  <a href="mailto:hr@catalysthiring.com" className="text-corp-600 font-bold hover:underline mt-0.5 block">
-                    hr@catalysthiring.com
+                  <a href="mailto:hr@catalysthiringsolutions.in" className="text-corp-600 font-bold hover:underline mt-0.5 block">
+                    hr@catalysthiringsolutions.in
                   </a>
                 </div>
               </div>

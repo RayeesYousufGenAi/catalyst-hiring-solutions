@@ -61,8 +61,8 @@ export default function PrivacyPolicyPage() {
           <h2 className="text-base font-bold text-slate-900">4. Contact & Data Deletion Requests</h2>
           <p>
             If you wish to update, modify, or request complete deletion of your candidate record from our database, please contact our data advisory team at{' '}
-            <a href="mailto:hr@catalysthiring.com" className="text-corp-600 font-bold underline">
-              hr@catalysthiring.com
+            <a href="mailto:hr@catalysthiringsolutions.in" className="text-corp-600 font-bold underline">
+              hr@catalysthiringsolutions.in
             </a>.
           </p>
         </section>

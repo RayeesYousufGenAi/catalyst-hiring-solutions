@@ -184,17 +184,23 @@ export default function CareersListClient({ initialJobs }: CareersListClientProp
               >
                 View Job Specs <ChevronRight className="w-3.5 h-3.5" />
               </Link>
-              <div className="flex items-center gap-2">
+              <div className="flex flex-wrap items-center gap-2">
+                <a
+                  href={`mailto:hr@catalysthiringsolutions.in?subject=${encodeURIComponent(`Job Application: ${job.title}`)}&body=${encodeURIComponent(`Hello Catalyst Recruitment Team,\n\nI want to apply for the position of "${job.title}".\n\nPlease find my resume attached.\n\nName:\nContact Number:\nCity:\nExperience:\n\nThank you.`)}`}
+                  className="px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-200 text-xs font-bold transition-all flex items-center gap-1"
+                >
+                  <span>Email</span>
+                </a>
                 <button
                   onClick={() => handleApplyClick(job)}
-                  className="px-3.5 py-1.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 text-xs font-bold transition-all flex items-center gap-1"
+                  className="px-3 py-1.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 text-xs font-bold transition-all flex items-center gap-1"
                 >
                   <Send className="w-3 h-3 text-emerald-600" />
                   <span>WhatsApp</span>
                 </button>
                 <Link
                   href={`/careers/${job.slug}`}
-                  className="px-4 py-1.5 rounded-xl bg-corp-600 hover:bg-corp-700 text-white text-xs font-bold shadow-md shadow-corp-600/20 transition-all"
+                  className="px-3.5 py-1.5 rounded-xl bg-corp-600 hover:bg-corp-700 text-white text-xs font-bold shadow-md shadow-corp-600/20 transition-all"
                 >
                   Apply Online
                 </Link>

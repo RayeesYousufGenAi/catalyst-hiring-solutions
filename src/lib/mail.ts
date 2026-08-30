@@ -4,7 +4,7 @@ const resendApiKey = process.env.RESEND_API_KEY;
 const resend = resendApiKey ? new Resend(resendApiKey) : null;
 
 // Note: In Resend free test mode without custom domain, emails can only be sent to the account owner email (rayeesyousuf80@gmail.com)
-const PRIMARY_TO_EMAIL = process.env.NOTIFICATION_EMAIL || 'catalysthiringsolutions@gmail.com';
+const PRIMARY_TO_EMAIL = process.env.NOTIFICATION_EMAIL || 'hr@catalysthiringsolutions.in';
 const FALLBACK_TO_EMAIL = 'rayeesyousuf80@gmail.com';
 const FROM_EMAIL = process.env.FROM_EMAIL || 'Catalyst Hiring <onboarding@resend.dev>';
 

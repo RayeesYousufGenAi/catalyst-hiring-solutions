@@ -41,7 +41,7 @@ export default function JobDetailClient({ job }: JobDetailClientProps) {
   const handleDirectEmail = () => {
     const subject = encodeURIComponent(`Job Application: ${job.title}`);
     const body = encodeURIComponent(`Hello Catalyst Recruitment Team,\n\nI would like to apply for the position of "${job.title}".\n\nPlease find my resume attached.\n\nName:\nContact Number:\nCurrent City:\nExperience:\n\nThank you.`);
-    window.location.href = `mailto:catalysthiringsolutions@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:hr@catalysthiringsolutions.in?subject=${subject}&body=${body}`;
   };
 
   return (
@@ -238,10 +238,10 @@ export default function JobDetailClient({ job }: JobDetailClientProps) {
                 Official Recruiter Email:
               </p>
               <a
-                href="mailto:catalysthiringsolutions@gmail.com"
+                href="mailto:hr@catalysthiringsolutions.in"
                 className="text-xs font-bold text-corp-600 hover:underline block"
               >
-                catalysthiringsolutions@gmail.com
+                hr@catalysthiringsolutions.in
               </a>
               <p className="text-[10px] text-slate-400">
                 100% Free Placement Service for Jobseekers

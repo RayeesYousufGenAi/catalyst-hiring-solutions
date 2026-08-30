@@ -25,7 +25,7 @@ export function getOrganizationSchema() {
     image: 'https://www.catalysthiringsolutions.in/og-image.jpg',
     description:
       'Premier recruitment agency & executive search consultancy in Dewas, Madhya Pradesh, serving 500+ corporate clients pan-India with a pre-vetted database of 100,000+ candidates.',
-    email: 'hr@catalysthiring.com',
+    email: 'hr@catalysthiringsolutions.in',
     telephone: '+91-9797713791',
     address: {
       '@type': 'PostalAddress',
