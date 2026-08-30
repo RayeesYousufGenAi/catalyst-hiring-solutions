@@ -1,136 +1,162 @@
-# 🌟 Catalyst Hiring Solutions — Next.js 14 Enterprise Talent Platform
-
 <div align="center">
 
-![Next.js 14](https://img.shields.io/badge/Next.js%2014-App%20Router-black?style=for-the-badge&logo=next.js)
-![React 18](https://img.shields.io/badge/React%2018-TypeScript-blue?style=for-the-badge&logo=react)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-11.0-FF0055?style=for-the-badge&logo=framer)
-![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3ECF8E?style=for-the-badge&logo=supabase)
-![Resend API](https://img.shields.io/badge/Resend-Email_Engine-000000?style=for-the-badge&logo=resend)
-![SEO Score](https://img.shields.io/badge/Lighthouse_SEO-100%2F100-success?style=for-the-badge&logo=google)
+# 🌟 Catalyst Hiring Solutions
+### *Enterprise Recruitment & Talent Acquisition Platform Built on Next.js 14*
 
-**An ultra-modern, high-performance recruitment & executive talent acquisition platform engineered for 500+ enterprise clients across India with 100/100 SEO, 53+ pre-rendered SSG pages, and interactive visual aesthetics.**
+<p align="center">
+  <a href="https://www.catalysthiringsolutions.in"><strong>Explore Live Website »</strong></a>
+  <br />
+  <a href="https://www.catalysthiringsolutions.in/careers">Browse 20+ WFH Jobs</a>
+  ·
+  <a href="https://www.catalysthiringsolutions.in/hire">Request Talent</a>
+  ·
+  <a href="https://www.catalysthiringsolutions.in/candidate">AI Resume ATS Checker</a>
+</p>
 
-[🌐 Live Website](https://www.catalysthiringsolutions.in) • [💼 Career Openings](https://www.catalysthiringsolutions.in/careers) • [🏢 Employer Portal](https://www.catalysthiringsolutions.in/hire) • [🤖 ATS Resume Checker](https://www.catalysthiringsolutions.in/candidate)
+[![Next.js 14](https://img.shields.io/badge/Next.js%2014-App%20Router-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![React 18](https://img.shields.io/badge/React%2018-TypeScript-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-11.0-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
+[![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
+[![Resend API](https://img.shields.io/badge/Resend-Email_Engine-000000?style=for-the-badge&logo=resend&logoColor=white)](https://resend.com/)
+[![Lighthouse SEO](https://img.shields.io/badge/Lighthouse_SEO-100%2F100-success?style=for-the-badge&logo=google&logoColor=white)](https://pagespeed.web.dev/)
 
 </div>
 
 ---
 
-> [!NOTE]
-> **Portfolio & Design Showcase**: This repository is a dedicated public portfolio showcase presenting the architectural design, feature suite, and engineering achievements of **Catalyst Hiring Solutions**. Proprietary production source code, private database schemas, and API secrets are securely retained to protect client intellectual property.
+> [!IMPORTANT]
+> **Portfolio & Design Architecture Showcase**: This repository is a curated public showcase presenting the engineering architecture, UI/UX systems, and feature suite of **Catalyst Hiring Solutions**. Proprietary production source code, internal schemas, and API secrets are securely isolated to protect client intellectual property.
 
 ---
 
-## 🎯 Executive Overview
+## 📸 Visual Design Showcase
 
-**Catalyst Hiring Solutions** is a modern recruitment and talent advisory platform engineered to connect enterprise employers with top-tier executive, technology, and volume workforce across India. Built from scratch with an emphasis on **high aesthetic design, sub-second performance, multi-channel lead acquisition, and enterprise-grade SEO (100/100)**.
+### 1. 🏛️ Homepage & Interactive Pan-India Talent Radar
+*Features real-time talent node telemetry connecting the Dewas HQ to Bangalore, Delhi, Pune, Mumbai, Hyderabad, and Chennai.*
+
+<div align="center">
+  <img src="screenshots/homepage-hero.png" width="100%" alt="Catalyst Hiring Solutions Homepage Hero" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);" />
+</div>
+
+<br />
+
+### 2. 💼 22+ Work From Home Careers & Multi-Channel Apply
+*Dynamic job board with instant category filtering, compensation tags, and triple-channel apply (Web Form + 1-Click WhatsApp + Direct Email).*
+
+<div align="center">
+  <img src="screenshots/careers-wfh.png" width="100%" alt="Work From Home Careers Board" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);" />
+</div>
+
+<br />
+
+### 3. 🤖 AI Candidate Hub & ATS Resume Score Checker
+*Interactive ATS vector analyzer calculating candidate keyword density, recruiter match scores (0–100%), and tailored enhancement tips.*
+
+<div align="center">
+  <img src="screenshots/candidate-ats.png" width="100%" alt="AI ATS Resume Score Checker" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);" />
+</div>
+
+<br />
+
+### 4. 🏢 Employer Mandates & Interactive Hiring ROI Calculator
+*Enterprise client intake portal featuring a real-time hiring savings slider and a 21-day turnaround estimation model.*
+
+<div align="center">
+  <img src="screenshots/hire.png" width="100%" alt="Employer Portal & ROI Calculator" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);" />
+</div>
+
+<br />
+
+### 5. 🎯 Practices, Industry Verticals & Contact Advisory
+*Detailed practice documentation for Executive Search, Volume Staffing, and Tech GCCs alongside localized contact channels.*
+
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <strong>Recruitment Practices & Verticals</strong><br /><br />
+      <img src="screenshots/services.png" width="100%" alt="Recruitment Services" style="border-radius: 8px;" />
+    </td>
+    <td width="50%" align="center">
+      <strong>Contact & Headquarter Operations</strong><br /><br />
+      <img src="screenshots/contact.png" width="100%" alt="Contact Page" style="border-radius: 8px;" />
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 💻 Technology Stack & Architecture
+## 🛠️ Technology Stack & Engineering Architecture
 
-| Layer | Technologies Used | Description |
+```mermaid
+graph TD
+    A[Next.js 14 App Router] --> B[Server-Side Pre-Rendering / 53+ SSG Pages]
+    A --> C[Interactive Client Components]
+    
+    C --> D[Candidate Application Modal]
+    C --> E[AI ATS Resume Vector Analyzer]
+    C --> F[Employer Mandate Portal & ROI Tool]
+    
+    D --> G[Multi-Channel Gateway]
+    G --> H[Resend API: Instant HTML Email Alerts]
+    G --> I[Supabase PostgreSQL: Applications Table]
+    G --> J[1-Click WhatsApp Direct Dispatch]
+    
+    A --> K[100/100 SEO Engine]
+    K --> L[Google for Jobs JobPosting Schema]
+    K --> M[Dynamic XML Sitemap & RSS Feed]
+    K --> N[Edge Runtime Favicons & OpenGraph Image]
+```
+
+### Technical Specs:
+- **Core Framework**: Next.js 14.2 (App Router with Server Components)
+- **UI Architecture**: React 18 with 100% TypeScript type safety
+- **Styling**: Tailwind CSS + Custom HSL Color Tokens + Glassmorphism surfaces
+- **Motion & Physics**: Framer Motion + Canvas celebratory feedback
+- **Database & Storage**: Supabase (PostgreSQL with Row-Level Security)
+- **Email Infrastructure**: Resend API with custom responsive HTML templates
+- **Performance Rating**: 60–120 FPS hardware-accelerated GPU rendering (`translate3d`)
+
+---
+
+## ⚡ Core Feature Matrix
+
+| Feature Module | Capabilities | Impact |
 | :--- | :--- | :--- |
-| **Frontend Framework** | **Next.js 14 (App Router)** | Server Components, Server-Side Rendering (SSR) & Static Site Generation (SSG) for 53+ pre-rendered pages. |
-| **Languages** | **TypeScript & Modern JavaScript (ES2024)** | 100% type-safe application logic with strict interface contracts. |
-| **Styling & UI** | **Tailwind CSS & Custom HSL Design Tokens** | Glassmorphism surfaces, responsive typography scales, and tailored dark-blue & gold palette. |
-| **Motion & Visuals** | **Framer Motion & Hardware Acceleration** | Hardware-accelerated SVG talent network radar, micro-interactions, and smooth layout transitions. |
-| **Database & Cloud** | **Supabase (PostgreSQL)** | Cloud-native relational database with Row-Level Security (RLS) for job applications, employer leads, and candidate records. |
-| **Email Infrastructure** | **Resend API Engine** | Automated transactional alerts with responsive HTML notification templates. |
-| **Icons & Media** | **Lucide React & Next.js Edge OG** | Dynamic Edge runtime Favicons (`/icon.png`), Apple Touch Icons (`/apple-icon.png`), and OpenGraph Social Banners (`/opengraph-image.png`). |
-
----
-
-## ✨ Key Features Built
-
-### 1. 💼 Advanced Careers & Work From Home Job Board
-- **22+ Real-world Openings**: Full-time, Remote, and Work From Home customer support, BPO, technical support, and SaaS customer success roles.
-- **Instant Search & Filter**: Real-time filtering by department category, work mode (WFH / Remote / Full-time), and experience level.
-- **Triple-Channel Application Gateway**:
-  - **1. Web Form Application**: Direct resume file upload (PDF/DOCX) + automated Resend email alert + database insertion.
-  - **2. 1-Click WhatsApp Apply**: Instant WhatsApp direct chat launcher with pre-filled job title, location, and salary info.
-  - **3. Direct Email Resume**: 1-click mailto launcher to official recruiter inbox (`hr@catalysthiringsolutions.in`).
-
-### 2. 🤖 AI Candidate Hub & ATS Resume Vector Analyzer
-- Interactive resume score checker parsing candidate skill density, ATS parser compatibility, and recruiter match percentage (0–100).
-- Actionable feedback and optimization guidance for jobseekers.
-
-### 3. 🏢 Employer Talent Portal & Interactive Hiring ROI Calculator
-- Dedicated enterprise mandate intake portal for Executive Search, Volume Hiring Drives, and Tech GCC staffing.
-- **Interactive ROI Calculator**: Real-time cost and hiring-time estimation slider demonstrating a 21-day turnaround vs the 60-day industry average.
-
-### 4. 🔒 Protected Recruiter Admin Command Center
-- Password-secured `/admin` dashboard.
-- Live telemetry for incoming candidate applications, uploaded resumes, ATS scores, and employer leads.
-- Full CRUD interface for creating, editing, and toggling active job postings.
-
-### 5. 📍 Programmatic Local SEO City Hubs
-- Dynamic landing pages for top Indian recruitment markets: **Bangalore, Delhi NCR & Gurugram, Pune, Mumbai, Hyderabad, Dewas & Indore**.
-- City-specific candidate metrics, key industries, top in-demand roles, and localized job openings.
-
----
-
-## 🎨 Interactive Visual Effects & Performance
-
-- **Pan-India Talent Radar**: Interactive SVG talent hub network connecting Dewas HQ to Bangalore, Delhi, Pune, Mumbai, Hyderabad, and Chennai with animated pulse rings and live match stream feeds.
-- **Hardware-Accelerated Ambient Aurora**: Lightweight CSS radial gradients running on GPU compositor layers (`transform: translate3d(0,0,0)`) for smooth 60–120 FPS performance on all devices.
-- **Interactive Confetti & Delights**: Micro-animations and celebratory feedback upon form submission.
+| **Work From Home Job Board** | 22+ live Customer Support, BPO, Tech Support & Fintech positions. | Real-time candidate acquisition across India. |
+| **Triple-Channel Apply** | 1. Web Form with Resume Upload<br />2. 1-Click WhatsApp Direct Chat<br />3. Direct Recruiter Email (`hr@catalysthiringsolutions.in`) | 0 lead drop-off; instant contact flexibility. |
+| **AI Resume ATS Checker** | Instant 0–100 match rating, keyword density analysis & improvement vectors. | High candidate engagement & self-screening. |
+| **Interactive ROI Calculator** | Real-time slider calculating cost savings and 21-day time-to-hire compression. | Proven enterprise conversion driver. |
+| **Programmatic City Hubs** | Localized landing pages for **Bangalore, Delhi NCR, Pune, Mumbai, Hyderabad, Dewas & Indore**. | Dominates local high-intent search queries. |
+| **Recruiter Admin Center** | Password-protected `/admin` interface with live application review & job CRUD. | Streamlined internal operations. |
 
 ---
 
 ## 🔍 Enterprise 100/100 Technical SEO Suite
 
 ```
-✅ Google Lighthouse SEO Score: 100 / 100
-✅ 53 / 53 Pre-rendered Static HTML Pages (SSG)
-✅ Google for Jobs Rich Results Verified
+  Google Lighthouse SEO Score: 100 / 100
+  53 / 53 Static HTML Pages Pre-Rendered (SSG)
+  Google for Jobs Rich Results Verified
 ```
 
-- **Schema.org Structured Data (JSON-LD)**:
-  - `JobPosting` schema for automatic indexing in **Google for Jobs** cards.
-  - `Organization` & `WebSite` schema with Google Sitelinks Searchbox (`SearchAction`).
-  - `EmploymentAgency / LocalBusiness` with geo-coordinates and address.
-  - `BreadcrumbList` & `BlogPosting / Article` schemas.
-- **Dynamic Crawlability**:
-  - Auto-generated XML Sitemap (`/sitemap.xml`) indexing all static, city, and career routes.
-  - Optimized `robots.txt` crawler directives.
-  - Live XML RSS Feed (`/feed.xml`) for instant search engine discovery.
-- **Brand Assets & Mobile PWA**:
-  - Dynamic Edge Favicon (`/icon.png`) & Apple Touch Icon (`/apple-icon.png`).
-  - 1200x630px dynamic OpenGraph social preview banner (`/opengraph-image.png`).
-  - Web App Manifest (`manifest.webmanifest`) for Google Mobile-First Indexing.
+- **Schema.org Structured Data**: Complete JSON-LD models for `JobPosting`, `Organization`, `WebSite` (Sitelinks Searchbox), `LocalBusiness / EmploymentAgency`, and `BreadcrumbList`.
+- **Dynamic Crawlability**: Dynamic XML Sitemap (`/sitemap.xml`), optimized `robots.txt`, and live XML RSS Feed (`/feed.xml`).
+- **Brand Assets**: Dynamic Edge Favicon (`/icon.png`), Apple Touch Icon (`/apple-icon.png`), and 1200x630px OpenGraph social banner (`/opengraph-image.png`).
 
 ---
 
-## 📸 Design Showcase
+## 📧 Contact & Technical Inquiries
 
-### Homepage Hero & Talent Radar
-![Homepage Hero Section](screenshots/homepage-hero.png)
+For inquiries regarding this platform architecture, talent hiring mandates, or technical collaborations:
 
-### Key Features & Client Proof
-<div style="display: flex; gap: 10px;">
-  <img src="screenshots/features-1.png" width="48%" />
-  <img src="screenshots/features-2.png" width="48%" />
-</div>
-
-### Services & Practice Breakdown
-![Services Page](screenshots/services.png)
-
-### About Company & Contact Advisory
-<div style="display: flex; gap: 10px;">
-  <img src="screenshots/about.png" width="48%" />
-  <img src="screenshots/contact.png" width="48%" />
-</div>
-
----
-
-## 📧 Contact & Collaborations
-For inquiries regarding this platform architecture or potential technical collaborations, connect via GitHub or official recruitment desk at **hr@catalysthiringsolutions.in**.
+- **Official Website**: [https://www.catalysthiringsolutions.in](https://www.catalysthiringsolutions.in)
+- **Recruitment Email**: [hr@catalysthiringsolutions.in](mailto:hr@catalysthiringsolutions.in)
+- **Phone / WhatsApp**: [+91 9797713791](https://wa.me/919797713791)
+- **Headquarters**: Catalyst Hiring Solutions, Dewas Industrial Area, Dewas, Madhya Pradesh 455001, India
 
 ---
 
 <div align="center">
-Designed & Built with ❤️ by <a href="https://github.com/RayeesYousufGenAi">Rayees Yousuf</a> • Powered by Next.js 14
+  <sub>Designed & Developed with ❤️ by <a href="https://github.com/RayeesYousufGenAi"><strong>Rayees Yousuf</strong></a> • Powered by Next.js 14 & Supabase</sub>
 </div>
