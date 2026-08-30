@@ -3,7 +3,7 @@ import { Resend } from 'resend';
 const resendApiKey = process.env.RESEND_API_KEY;
 const resend = resendApiKey ? new Resend(resendApiKey) : null;
 
-const TO_EMAIL = process.env.NOTIFICATION_EMAIL || 'rayeesyousuf80@gmail.com';
+const TO_EMAIL = process.env.NOTIFICATION_EMAIL || 'catalysthiringsolutions@gmail.com';
 const FROM_EMAIL = process.env.FROM_EMAIL || 'Catalyst Hiring <onboarding@resend.dev>';
 
 export async function sendApplicationEmail(data: {
