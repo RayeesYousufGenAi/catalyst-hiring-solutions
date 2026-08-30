@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { saveEmployerLead } from '@/lib/dataStore';
+import { sendEmployerLeadEmail } from '@/lib/mail';
 
 export async function POST(request: Request) {
   try {
@@ -20,9 +21,16 @@ export async function POST(request: Request) {
       message,
     });
 
-    if (process.env.RESEND_API_KEY) {
-      console.log(`[Resend Notification] Employer Lead from ${companyName} (${contactPerson})`);
-    }
+    // Send instant email notification via Resend
+    await sendEmployerLeadEmail({
+      companyName,
+      contactPerson,
+      email,
+      phone,
+      rolesNeeded,
+      teamSize,
+      message,
+    });
 
     return NextResponse.json(result);
   } catch (error: any) {

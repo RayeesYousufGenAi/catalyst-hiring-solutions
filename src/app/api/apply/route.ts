@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { saveApplication } from '@/lib/dataStore';
+import { sendApplicationEmail } from '@/lib/mail';
 
 export async function POST(request: Request) {
   try {
@@ -32,10 +33,17 @@ export async function POST(request: Request) {
       coverNote,
     });
 
-    // Optional email notification hook (Resend API key check)
-    if (process.env.RESEND_API_KEY) {
-      console.log(`[Resend Notification] Candidate application received for ${jobTitle} from ${fullName} (${email})`);
-    }
+    // Send instant email notification via Resend
+    await sendApplicationEmail({
+      jobTitle: jobTitle || 'General Application',
+      fullName,
+      email,
+      phone,
+      currentLocation: currentLocation || 'India',
+      experienceYears: experienceYears || '0-1',
+      coverNote,
+      resumeFileName,
+    });
 
     return NextResponse.json(result);
   } catch (error: any) {
