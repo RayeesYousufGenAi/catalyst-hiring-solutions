@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { Fraunces, Outfit } from 'next/font/google';
+import Script from 'next/script';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -67,7 +68,7 @@ export const metadata: Metadata = {
     telephone: true,
   },
   alternates: {
-    canonical: './',
+    canonical: '/',
   },
   openGraph: {
     type: 'website',
@@ -120,6 +121,25 @@ export default function RootLayout({
         <JsonLd data={getLocalBusinessSchema()} />
       </head>
       <body className="bg-hero-light text-navy-950 min-h-screen flex flex-col font-sans antialiased selection:bg-corp-500 selection:text-white">
+        {/* Google Analytics 4 */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-D5VGP3D1GM"
+        />
+        <Script
+          id="google-analytics-gtag"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-D5VGP3D1GM', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        />
         <Navbar />
         <main className="flex-grow pt-20">{children}</main>
         <Footer />
